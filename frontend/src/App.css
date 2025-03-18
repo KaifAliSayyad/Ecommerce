@@ -1,0 +1,25 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Inter';
+}
+
+.header{
+  position: sticky;
+  top: 0;
+  height: 10vh;
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 200;
+  z-index: 1000;
+}
+
+.body{
+  flex-grow: 1;
+}
+
+.footer{
+  height: 10vh;
+}

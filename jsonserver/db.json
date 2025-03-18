@@ -1,0 +1,131 @@
+{
+  "vendors": [
+    {
+      "id": "1",
+      "name": "Tech Innovations Ltd.",
+      "contact": "contact@techinnovations.com",
+      "location": "Mumbai, India"
+    },
+    {
+      "id": "2",
+      "name": "Green Earth Organics",
+      "contact": "support@greenearthorganics.com",
+      "location": "Mumbai, India"
+    },
+    {
+      "id": "3",
+      "name": "Fashion Forward Pvt. Ltd.",
+      "contact": "sales@fashionforward.in",
+      "location": "Delhi, India"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Smartphone X100",
+      "description": "A high-end smartphone with a 6.5-inch display, 128GB storage, and a 48MP camera.",
+      "price": 29999,
+      "vendorId": 1,
+      "inventoryId": 1
+    },
+    {
+      "id": "2",
+      "name": "Organic Green Tea",
+      "description": "Premium organic green tea leaves sourced from the hills of Darjeeling.",
+      "price": 450,
+      "vendorId": 2,
+      "inventoryId": 2
+    },
+    {
+      "id": "3",
+      "name": "Designer Leather Jacket",
+      "description": "Stylish leather jacket made from genuine cowhide, available in various sizes.",
+      "price": 7999,
+      "vendorId": 3,
+      "inventoryId": 3
+    },
+    {
+      "id": "4",
+      "name": "new Product",
+      "description": "this is dummy product",
+      "price": 2000,
+      "vendorId": "3",
+      "inventoryId": "3"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "1",
+      "productId": 1,
+      "stock": 150
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "stock": 200
+    },
+    {
+      "id": "3",
+      "productId": 3,
+      "stock": 80
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "orderDate": "2025-03-10T14:30:00Z",
+      "totalAmount": 34448,
+      "userId": 101,
+      "productIds": [
+        1,
+        2
+      ],
+      "status": "shipped",
+      "shippingAddress": "123 MG Road, Mumbai, India",
+      "paymentMethod": "Credit Card"
+    },
+    {
+      "id": "2",
+      "orderDate": "2025-03-12T09:15:00Z",
+      "totalAmount": 7999,
+      "userId": 102,
+      "productIds": [
+        3
+      ],
+      "status": "pending",
+      "shippingAddress": "456 Park Street, Delhi, India",
+      "paymentMethod": "Debit Card"
+    },
+    {
+      "id": "ORD-1742189739126-706",
+      "orderDate": "2025-03-17T05:35:39.126Z",
+      "totalAmount": 149995,
+      "userId": "101",
+      "items": [
+        {
+          "productId": "1",
+          "quantity": 5
+        }
+      ],
+      "shippingAddress": "abc, mumbai, india",
+      "paymentMethod": "credit_card"
+    }
+  ],
+  "stock": [
+    {
+      "id": "1",
+      "productId": 1,
+      "quantity": 150
+    },
+    {
+      "id": "2",
+      "productId": 2,
+      "quantity": 200
+    },
+    {
+      "id": "3",
+      "productId": 3,
+      "quantity": 80
+    }
+  ]
+}
